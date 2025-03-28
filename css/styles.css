@@ -162,6 +162,47 @@ a:hover {
   border-radius: 16px;
 }
 
+#javascript {
+  background-color: #FCDC00;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+#vite {
+  background-color: #857BFE;
+  border: none;
+  color: #FFD425;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+#react {
+  background-color: #57C4DC;
+  border: none;
+  color: #23272F;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+/* #57C4DC */
+
 /* Work Experience
 --------------------*/
 
