@@ -12,10 +12,13 @@ OR
 #8C8C9C - Manatee
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* GLOBAL STYLES
 --------------------*/
 html {
   box-sizing: border-box;
+  font-family: Winky Sans, sans-serif;
 }
 
 *, *:before, *:after {
