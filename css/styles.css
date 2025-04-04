@@ -93,13 +93,13 @@ a:hover {
 
 /* Projects
 --------------------*/
-.petpix img {
-
+.projects {
+  margin-top: 80px;
 }
 
 .hoopshub img {
-  width: 350px;
-  height: 250px;
+  width: 400px;
+  height: 300px;
 }
 
 .project-item {
@@ -110,11 +110,19 @@ a:hover {
 .project-item img {
   /* width: 200px; */
   float: left;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .flex-container {
   display: flex;
+}
+
+.project-item-image {
+  flex: 1;
+}
+
+.project-item-description {
+  flex: 1;
 }
 
 /* Project stack button styles
