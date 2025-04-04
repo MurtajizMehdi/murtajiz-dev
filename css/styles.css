@@ -194,8 +194,8 @@ a:hover {
 
 #vite {
   background-color: #857BFE;
-  border: none;
-  color: #FFD425;
+  border: #FFD425 solid 1px;
+  color: black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
