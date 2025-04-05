@@ -115,6 +115,8 @@ a:hover {
 
 .flex-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-item-image {
@@ -209,6 +211,19 @@ a:hover {
   background-color: #57C4DC;
   border: none;
   color: #23272F;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+#supabase {
+  background-color: #3DCF8E;
+  border: none;
+  color: black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
