@@ -139,7 +139,7 @@ a:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
 #swift-ui {
@@ -152,7 +152,7 @@ a:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
 #figma {
@@ -165,7 +165,7 @@ a:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
 #back4app {
@@ -178,12 +178,12 @@ a:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
 #javascript {
   background-color: #FCDC00;
-  border: none;
+  border: black solid 2px;
   color: black;
   padding: 10px 20px;
   text-align: center;
@@ -191,12 +191,12 @@ a:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
 #vite {
   background-color: #857BFE;
-  border: #FFD425 solid 1px;
+  border: #FFD425 solid 2px;
   color: black;
   padding: 10px 20px;
   text-align: center;
@@ -204,12 +204,12 @@ a:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
 #react {
   background-color: #57C4DC;
-  border: none;
+  border: black solid 2px;
   color: #23272F;
   padding: 10px 20px;
   text-align: center;
@@ -217,12 +217,12 @@ a:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
 #supabase {
   background-color: #3DCF8E;
-  border: none;
+  border: black solid 2px;
   color: black;
   padding: 10px 20px;
   text-align: center;
@@ -230,7 +230,7 @@ a:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
 /* #57C4DC */
