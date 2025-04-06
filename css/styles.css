@@ -89,6 +89,10 @@ a:hover {
   height: 375px;
 }
 
+.resume-section {
+  margin-bottom: 70px;
+}
+
 /* Profile 
 --------------------*/
 
@@ -133,7 +137,7 @@ a:hover {
  #swift {
   background-color: #FD7E35;
   border: black solid 2px;
-  color: black;
+  color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
