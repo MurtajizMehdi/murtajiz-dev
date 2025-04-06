@@ -141,6 +141,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#swift:hover {
+  transform: scale(1.1);
 }
 
 #swift-ui {
@@ -154,10 +159,15 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#swift-ui:hover {
+  transform: scale(1.1);
 }
 
 #figma {
-  background: linear-gradient(to right, #FD8A8A, #FFCBCB, #9EA1D4, #A2BFFE, #B3EBF2, #D1FEB8, #F6F3A9, #F8C57C, #FDBA90);;
+  background: linear-gradient(to right, #FF6961, #B39EB5, #77DD77, #FAC898, #7cb8cd);;
   border: black solid 2px;
   color: black;
   padding: 10px 20px;
@@ -167,6 +177,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#figma:hover {
+  transform: scale(1.1);
 }
 
 #back4app {
@@ -180,6 +195,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#back4app:hover {
+  transform: scale(1.1);
 }
 
 #html5 {
@@ -193,6 +213,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#html5:hover {
+  transform: scale(1.1);
 }
 
 #css3 {
@@ -206,6 +231,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#css3:hover {
+  transform: scale(1.1);
 }
 
 #javascript {
@@ -219,6 +249,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#javascript:hover {
+  transform: scale(1.1);
 }
 
 #vite {
@@ -232,6 +267,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#vite:hover {
+  transform: scale(1.1);
 }
 
 #react {
@@ -245,6 +285,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#react:hover {
+  transform: scale(1.1);
 }
 
 #supabase {
@@ -258,6 +303,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
+  transition: transform .2s;
+}
+
+#supabase:hover {
+  transform: scale(1.1);
 }
 
 /* #57C4DC */
