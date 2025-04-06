@@ -147,7 +147,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #swift:hover {
   transform: scale(1.1);
 }
@@ -165,7 +164,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #swift-ui:hover {
   transform: scale(1.1);
 }
@@ -183,7 +181,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #figma:hover {
   transform: scale(1.1);
 }
@@ -201,7 +198,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #back4app:hover {
   transform: scale(1.1);
 }
@@ -219,7 +215,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #html5:hover {
   transform: scale(1.1);
 }
@@ -237,7 +232,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #css3:hover {
   transform: scale(1.1);
 }
@@ -255,7 +249,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #javascript:hover {
   transform: scale(1.1);
 }
@@ -273,7 +266,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #vite:hover {
   transform: scale(1.1);
 }
@@ -291,7 +283,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #react:hover {
   transform: scale(1.1);
 }
@@ -309,7 +300,6 @@ a:hover {
   border-radius: 20px;
   transition: transform .2s;
 }
-
 #supabase:hover {
   transform: scale(1.1);
 }
