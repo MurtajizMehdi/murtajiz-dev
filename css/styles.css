@@ -182,10 +182,12 @@ border-bottom: #86bc26 solid 2px;
   transform: scale(1.1);
 }
 
+/* #FF3737 */
+
 #figma {
-  background: linear-gradient(to right, #FF6961, #B39EB5, #77DD77, #FAC898, #7cb8cd);;
+  background: linear-gradient(to right, #FF3737, #FF7137, #864FFF, #00B6FF, #22CB71);;
   border: black solid 2px;
-  color: black;
+  color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -286,7 +288,7 @@ border-bottom: #86bc26 solid 2px;
 
 #react {
   background-color: #57C4DC;
-  border: black solid 2px;
+  border: #23272F solid 2px;
   color: #23272F;
   padding: 10px 20px;
   text-align: center;
