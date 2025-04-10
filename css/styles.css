@@ -93,6 +93,10 @@ a:hover {
   margin-bottom: 70px;
 }
 
+.resume-section h2 {
+  border-bottom: darkgray dashed 2px;
+}
+
 /* Profile 
 --------------------*/
 
