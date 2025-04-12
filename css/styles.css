@@ -72,10 +72,17 @@ a:hover {
 .home {
   background: url(../images/backgrounds/bg-home-office-city.jpg) no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .home .content-wrapper {
-  background-color: rgb(255, 255, 255, 0.9);
+  flex: 1 0 auto;
+}
+
+.content-bg {
+  background: rgb(255 255 255 / 0.9);
+  padding: 30px;
 }
 
 /* RESUME
