@@ -118,7 +118,7 @@ a:hover {
 }
 
 .resume-section h2 {
-  border-bottom: darkgray dashed 2px;
+  border-bottom: #86bc26 solid 2px;
 }
 
 .download-link {
@@ -147,7 +147,7 @@ a:hover {
 }
 
 .project-item h3 {
-border-bottom: #86bc26 solid 2px;
+  border-bottom: darkgray dashed 2px;
 }
 
 .project-item img {
@@ -357,6 +357,9 @@ border-bottom: #86bc26 solid 2px;
 footer {
   background-color: rgb(42, 42, 42);
   color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
 footer li img {
@@ -371,7 +374,7 @@ footer li img {
 
 .socials li {
   display: inline-block;
-
+  margin-left: 10px;
 }
 
 .socials img {
