@@ -377,6 +377,10 @@ footer li img {
   margin-left: 10px;
 }
 
+.socials img:hover {
+  opacity: 0.5;
+}
+
 .socials img {
   /* width: 2.5rem; */
 }
