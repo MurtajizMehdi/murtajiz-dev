@@ -73,7 +73,7 @@ a:hover {
   display: flex;
   align-items: center;
 }
-.name-and-image h1 {
+.name-and-image .name-info {
   flex: 1;
 }
 
