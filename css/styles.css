@@ -72,6 +72,7 @@ a:hover {
 .name-and-image {
   display: flex;
   align-items: center;
+  margin-bottom: 40px;
 }
 .name-and-image .name-info {
   flex: 1;
