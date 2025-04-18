@@ -348,6 +348,11 @@ a:hover {
 
 /* Work Experience
 --------------------*/
+.work-item {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 20px;
+}
 
 /* Education 
 --------------------*/
