@@ -57,8 +57,19 @@ a:hover {
 
 .project-btn {
   background-color: #86bc26;
-  color: black;
+  color: white;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 7px;
+  letter-spacing: .1em;
+  line-height: 1;
+  border-radius: 4px;
+}
+.project-btn:hover {
+  background-color: #4c6b16;
+  text-decoration: none;
+  color:white
 }
 
 .content-wrapper {
@@ -348,8 +359,6 @@ a:hover {
 #supabase:hover {
   transform: scale(1.1);
 }
-
-/* #57C4DC */
 
 /* Work Experience
 --------------------*/
