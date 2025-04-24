@@ -141,6 +141,7 @@ a:hover {
   position: fixed;
   top: 5px;
   left: 5px;
+  font-size: 1.2rem;
 }
 
 /* Profile 
@@ -366,6 +367,13 @@ a:hover {
   display: grid;
   grid-template-columns: 300px 1fr;
   column-gap: 20px;
+}
+
+.work-details p {
+  margin: 0;
+}
+.work-summary p:first-child {
+  margin-top: 0;
 }
 
 /* Education 
