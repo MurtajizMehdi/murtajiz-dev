@@ -191,6 +191,10 @@ a:hover {
 @media screen and (max-width: 710px) {
   .flex-container {
     flex-direction: column;
+    margin: 30px 0;
+  }
+  .project-item-image {
+    margin: 20px 0;
   }
 }
 
