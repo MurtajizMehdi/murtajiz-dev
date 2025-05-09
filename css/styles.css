@@ -126,7 +126,7 @@ a:hover {
   background-position: center;
   content: "";
   display: block;
-  height: 200px;
+  height: 375px;
 }
 
 .resume-section {
@@ -147,7 +147,18 @@ a:hover {
   .download-link {
     position: absolute;
   }
-  
+}
+
+@media screen and (max-width: 500px) {
+  .resume header::before {
+    height: 200px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
 }
 
 /* Profile 
