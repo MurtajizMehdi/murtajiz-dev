@@ -95,6 +95,12 @@ a:hover {
     align-items: center;
     justify-content: center;
   }
+
+  .name-and-image img {
+    background-image: url(../images/backgrounds/bg-home-office-city.jpg);
+    background-size: repeat;
+  }
+
   header img {
     align-items: center;
     justify-content: center;
@@ -124,7 +130,7 @@ a:hover {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-right: 20px;
+  /* margin-right: 20px;  */
   border: #86bc26 solid 3px;
   /* box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5); */
 }
@@ -143,6 +149,17 @@ a:hover {
 .content-bg {
   background: rgb(255 255 255 / 0.9);
   padding: 30px;
+}
+
+@media screen and (max-width: 650px) {
+  .content-bg {
+    background: rgb(255 255 255 / 0.9);
+    padding: 20px;
+  }
+  .home .content-wrapper {
+    padding: 10px;
+  }
+  
 }
 
 /* RESUME
