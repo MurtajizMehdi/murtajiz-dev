@@ -143,6 +143,12 @@ a:hover {
   left: 5px;
   font-size: 1.2rem;
 }
+@media screen and (max-width: 1200px) {
+  .download-link {
+    position: absolute;
+  }
+  
+}
 
 /* Profile 
 --------------------*/
@@ -181,6 +187,7 @@ a:hover {
 
 .project-item-image {
   flex: 1;
+  margin-top: 20px;
 }
 
 .project-item-description {
