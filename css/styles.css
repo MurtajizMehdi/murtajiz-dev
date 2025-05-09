@@ -499,3 +499,18 @@ footer li img {
 .socials img {
   /* width: 2.5rem; */
 }
+
+@media screen and (min-width: 860px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 859px) {
+  footer {
+    /* text-align: center; */
+    padding: 10px;
+  }
+}
