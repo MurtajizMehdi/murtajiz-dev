@@ -19,8 +19,11 @@ OR
 html {
   box-sizing: border-box;
   font-family: roboto, sans-serif;
-  background-image: url(../images/backgrounds/bg-home-office-city.jpg);
   /* Winky Sans, sans-serif; */
+}
+
+.home-page {
+  background-image: url(../images/backgrounds/bg-home-office-city.jpg);
 }
 
 *, *:before, *:after {
