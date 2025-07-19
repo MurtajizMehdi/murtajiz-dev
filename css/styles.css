@@ -26,11 +26,14 @@ html {
   background-image: url(../images/backgrounds/bg-home-office-city.jpg);
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -66,25 +69,27 @@ a:hover {
   text-transform: uppercase;
   font-size: 0.9rem;
   padding: 7px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 1;
   border-radius: 4px;
 }
 .project-btn:hover {
   background-color: #4c6b16;
   text-decoration: none;
-  color:white
+  color: white;
 }
 
 .content-wrapper {
-   margin: 0 auto;
-   max-width: 900px;
-   padding: 30px;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
 }
 
 /* HOME
 --------------------*/
-.home header h1, .home header h2, .home header h3 {
+.home header h1,
+.home header h2,
+.home header h3 {
   /* text-shadow: 2px 2px rgb(193, 193, 193); */
 }
 
@@ -109,7 +114,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     margin: 20px;
-  } 
+  }
   .name {
     text-align: center;
   }
@@ -119,11 +124,11 @@ a:hover {
   .subtitle {
     text-align: center;
   }
-  .home { /* Figure out why this isn't working. */
+  .home {
+    /* Figure out why this isn't working. */
     background: url(../images/backgrounds/bg-home-office-city.jpg) no-repeat;
     background-size: cover;
   }
-  
 }
 
 .name-and-image .name-info {
@@ -163,11 +168,15 @@ a:hover {
   .home .content-wrapper {
     padding: 10px;
   }
-  
 }
 
 /* RESUME
 --------------------*/
+.resume {
+  background-color: #393b43;
+  color: white;
+}
+
 .resume header::before {
   background: url(../images/backgrounds/bg-home-office-city.jpg);
   background-size: cover;
@@ -200,7 +209,7 @@ a:hover {
 @media screen and (max-width: 500px) {
   .resume header::before {
     height: 200px;
-  } 
+  }
   h1 {
     font-size: 2rem;
   }
@@ -266,8 +275,8 @@ a:hover {
 
 /* Project stack button styles
  -------------------*/
- #swift {
-  background-color: #FD7E35;
+#swift {
+  background-color: #fd7e35;
   border: black solid 2px;
   color: white;
   padding: 10px 20px;
@@ -277,15 +286,15 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #swift:hover {
   transform: scale(1.1);
 }
 
 #swift-ui {
-  background-color: #0070FD;
-  border: #00D2FF solid 2px;
+  background-color: #0070fd;
+  border: #00d2ff solid 2px;
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -294,7 +303,7 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #swift-ui:hover {
   transform: scale(1.1);
@@ -303,7 +312,14 @@ a:hover {
 /* #FF3737 */
 
 #figma {
-  background: linear-gradient(to right, #FF3737, #FF7137, #864FFF, #00B6FF, #22CB71);;
+  background: linear-gradient(
+    to right,
+    #ff3737,
+    #ff7137,
+    #864fff,
+    #00b6ff,
+    #22cb71
+  );
   border: black solid 2px;
   color: white;
   padding: 10px 20px;
@@ -313,14 +329,14 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #figma:hover {
   transform: scale(1.1);
 }
 
 #back4app {
-  background-color: #101F3A;
+  background-color: #101f3a;
   border: #224265 solid 2px;
   color: white;
   padding: 10px 20px;
@@ -330,14 +346,14 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #back4app:hover {
   transform: scale(1.1);
 }
 
 #html5 {
-  background-color: #EE642A;
+  background-color: #ee642a;
   border: #9a361d solid 2px;
   color: black;
   padding: 10px 20px;
@@ -347,14 +363,14 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #html5:hover {
   transform: scale(1.1);
 }
 
 #css3 {
-  background-color: #2865F0;
+  background-color: #2865f0;
   border: #1b36a1 solid 2px;
   color: white;
   padding: 10px 20px;
@@ -364,14 +380,14 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #css3:hover {
   transform: scale(1.1);
 }
 
 #javascript {
-  background-color: #FCDC00;
+  background-color: #fcdc00;
   border: black solid 2px;
   color: black;
   padding: 10px 20px;
@@ -381,15 +397,15 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #javascript:hover {
   transform: scale(1.1);
 }
 
 #vite {
-  background-color: #857BFE;
-  border: #FFD425 solid 2px;
+  background-color: #857bfe;
+  border: #ffd425 solid 2px;
   color: black;
   padding: 10px 20px;
   text-align: center;
@@ -398,16 +414,16 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #vite:hover {
   transform: scale(1.1);
 }
 
 #react {
-  background-color: #57C4DC;
-  border: #23272F solid 2px;
-  color: #23272F;
+  background-color: #57c4dc;
+  border: #23272f solid 2px;
+  color: #23272f;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -415,14 +431,14 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #react:hover {
   transform: scale(1.1);
 }
 
 #supabase {
-  background-color: #3DCF8E;
+  background-color: #3dcf8e;
   border: black solid 2px;
   color: black;
   padding: 10px 20px;
@@ -432,7 +448,7 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 #supabase:hover {
   transform: scale(1.1);
@@ -468,7 +484,7 @@ a:hover {
   margin: 30px 0;
 }
 
-.education-item p{
+.education-item p {
   margin: 0;
 }
 /* FOOTER
@@ -518,3 +534,5 @@ footer li img {
     padding: 10px;
   }
 }
+
+/* Color for dark mode - #393B43 */
