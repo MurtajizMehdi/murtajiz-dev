@@ -173,8 +173,8 @@ a:hover {
 /* RESUME
 --------------------*/
 .resume {
-  background-color: #393b43;
-  color: white;
+  /* background-color: #393b43; */
+  /* color: white; */
 }
 
 .resume header::before {
